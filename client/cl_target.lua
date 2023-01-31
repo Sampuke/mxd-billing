@@ -1,4 +1,3 @@
-local QBCore = exports['qb-core']:GetCoreObject()
 
 CreateThread(function()
     for k, options in pairs(Config.Target) do
